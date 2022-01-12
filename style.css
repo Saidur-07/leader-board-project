@@ -43,7 +43,6 @@ header .nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .nav .text ul {
   display: flex;
@@ -53,13 +52,12 @@ header .nav {
   list-style-type: none;
   margin-left: 36px;
   cursor: pointer;
-
 }
-.nav .text ul li:hover{
-    color: black;
+.nav .text ul li:hover {
+  color: black;
 }
-.nav .text img{
-    cursor: pointer;
+.nav .text img {
+  cursor: pointer;
 }
 /* main styles */
 
@@ -96,12 +94,14 @@ main {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  cursor: pointer;
+  margin-left: 5px;
 }
-.player:hover, .blog:hover , .course:hover{
-    box-shadow: 9px 5px 20px 0px grey;
-    transition: box-shadow .2s linear;
-    cursor: pointer;
+.player:hover,
+.blog:hover,
+.course:hover {
+  box-shadow: 5px -2px 9px 0px #b9b3b3;
+  transition: box-shadow 0.2s linear;
+  cursor: pointer;
 }
 .player img {
   width: 56px;
@@ -197,12 +197,12 @@ hr {
 /* Mobile devices */
 
 @media only screen and (max-width: 688px) {
-    header .nav .text{
-       display: none;
-    }
-    header{
-        height: 60px;
-    }
+  header .nav .text {
+    display: none;
+  }
+  header {
+    height: 60px;
+  }
   .container {
     width: 100vw;
   }
@@ -229,7 +229,6 @@ hr {
 /* teblet devices */
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-   
   .container {
     width: 100vw;
   }
